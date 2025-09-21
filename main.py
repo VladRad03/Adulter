@@ -3,7 +3,7 @@ from interpreter import Interpreter
 
 # Fake minimal LLM config (adapt to your provider: OpenAI, Claude, local, etc.)
 llm_config = {
-    "model": "gpt-4",  # or "gpt-3.5-turbo"
+    "model": "gpt-5-mini",  # or "gpt-3.5-turbo"
     "api_key": os.getenv("OPENAI_API_KEY", "dummy_key"),  # fallback for demo
 }
 
@@ -23,11 +23,14 @@ def main():
             print("Goodbye!")
             break
         elif user_input.lower() in ["example"]:
-            user_input = "soccer game september 24th 2025, from 4pm-6pm at UW IMA in Seattle, use google calendar."
+            user_input = "soccer game september 24th 2025, from 3pm-5pm at UW IMA in Seattle, use google calendar."
 
         # Run agent
+        print("running summarize")
+        #result = agent.summarize(user_input)
+        print("running interpret (i.e. use calendar)")
         result = agent.interpret(user_input)
-
+        
         # Print agent’s result
         print("\n--- Result ---")
         print(result)
