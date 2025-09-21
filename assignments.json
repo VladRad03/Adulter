@@ -1,0 +1,47 @@
+[
+  {
+    "course": "Soviet Film",
+    "name": "For Sept 30: Kuleshev's \"The Extraordinary Adventures of Mr. West in the Land of the Bolsheviks\" ",
+    "due_at": "2025-09-30T15:30:00Z"
+  },
+  {
+    "course": "Soviet Film",
+    "name": "For Oct 2: Eisenstein's \"Battleship Potemkin\" ",
+    "due_at": "2025-10-02T15:30:00Z"
+  },
+  {
+    "course": "Soviet Film",
+    "name": "For Oct 7: Vertov's \"Man With a Movie Camera\" ",
+    "due_at": "2025-10-07T15:30:00Z"
+  },
+  {
+    "course": "Soviet Film",
+    "name": "For Oct 9: Room's \"Bed and Sofa\"",
+    "due_at": "2025-10-09T15:30:00Z"
+  },
+  {
+    "course": "Soviet Film",
+    "name": "OPTIONAL / recommended -- Re-staging the Revolution: Vsevolod Pudovkin's  \"The End of Saint Petersburg\" (1927)",
+    "due_at": "2025-10-13T15:30:00Z"
+  },
+  {
+    "course": "Soviet Film",
+    "name": "Quiz 1: Mr West in the Land of the Bolsheviks",
+    "due_at": "2025-09-30T15:20:00Z"
+  },
+  {
+    "course": "Soviet Film",
+    "name": "Quiz 2: Battleship Potemkin",
+    "due_at": "2025-10-02T15:20:00Z"
+  },
+  {
+    "course": "Soviet Film",
+    "name": "Quiz 3: Man with a Movie Camera",
+    "due_at": "2025-10-07T15:20:00Z"
+  },
+  {
+    "course": "Soviet Film",
+    "name": "Quiz 4: Bed and Sofa",
+    "due_at": "2025-10-09T15:20:00Z"
+  }
+]
